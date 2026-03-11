@@ -1,0 +1,86 @@
+
+.ezy__blogdetails8 {
+  /* Bootstrap variables */
+  --bs-body-color: rgb(11, 11, 11);
+  --bs-body-bg: rgb(255, 255, 255);
+
+  /* Easy Frontend variables */
+  --ezy-theme-color: rgb(13, 110, 253);
+  --ezy-theme-color-rgb: 13, 110, 253;
+  --ezy-border-color: rgba(0, 0, 0, 0.1);
+
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  overflow: hidden;
+  padding: 60px 0;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .ezy__blogdetails8 {
+    padding: 100px 0;
+  }
+}
+
+/* Gray Block Style */
+.gray .ezy__blogdetails8,
+.ezy__blogdetails8.gray {
+  /* Bootstrap variables */
+  --bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__blogdetails8,
+.ezy__blogdetails8.dark-gray {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(30, 39, 53);
+
+  /* Easy Frontend variables */
+  --ezy-blog-top-color: rgb(11, 23, 39);
+  --ezy-border-color: rgba(255, 255, 255, 0.03);
+}
+
+/* Dark Block Style */
+.dark .ezy__blogdetails8,
+.ezy__blogdetails8.dark {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(11, 23, 39);
+
+  /* Easy Frontend variables */
+  --ezy-blog-top-color: rgb(30, 39, 53);
+  --ezy-border-color: rgba(255, 255, 255, 0.03);
+}
+
+.ezy__blogdetails8-heading {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+  .ezy__blogdetails8-heading {
+    font-size: 32px;
+  }
+}
+
+.ezy__blogdetails8-sub-heading {
+  font-size: 18px;
+  line-height: 25px;
+  opacity: 0.8;
+}
+.ezy__blogdetails8 p a {
+  text-decoration: none;
+  color: var(--ezy-theme-color);
+  font-size: 14px;
+}
+.ezy__blogdetails8 a {
+  font-size: 20px;
+  color: var(--bs-body-color);
+}
+.ezy__blogdetails8-title {
+  
+  font-size: 22px;
+  line-height: 1.4;
+}

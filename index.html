@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="assets/img/logo1.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>Yummy Recipe</title>
+</head>
+<body>
+  <section class="position-sticky top-0 z-1">
+	<nav class="navbar navbar-expand-lg bg-success">
+		<div class="container">
+			<a class="navbar-brand bs border border-light p-1 rounded-circle " href="index.html"><img alt="Free Frontend Logo" class="img-fluid" height="80" src="assets/img/logo1.png" width="80"></a> <button aria-controls="navbarSupportedContent10" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent10" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent10">
+				<ul class="navbar-nav mx-auto my-2 my-lg-0 ">
+					<li class="nav-item d-flex align-items-center me-4">
+						<a class="nav-link text-light " href="index.html">
+						  <i class="fas fa-house"></i>
+						Home</a>
+					</li>
+					<li class="nav-item d-flex align-items-center me-4">
+						<a class="nav-link text-light" href="recipe.html">
+    <i class="fas fa-utensils"></i> Recipe </a>
+					</li>
+						<li class="nav-item d-flex align-items-center me-4">
+						<a class="nav-link text-light" href="mykit.html">     <i class="fas fa-briefcase"></i>
+         My Kit</a>
+					</li>
+					<li class="nav-item d-flex align-items-center me-4">
+						<a class="nav-link text-light" href="community.html"> <i class="fas fa-users"></i> Community</a>
+					</li>
+				</ul><a class="btn btn-outline-light mb-2 mb-lg-0 " href="signin.html">Sign up</a>&nbsp;<a class="btn btn-light mb-2 mb-lg-0" href="signup.html">Sign in</a>
+		
+			</div>
+		</div>
+	</nav>
+</section>
+  <section> 
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        
+      <div class="carousel-inner">
+        
+        <div class="carousel-item active">
+          <img src="assets/img/c1.jpeg" class="d-block w-100 hei opacity-50" alt="pic">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/c2.jpeg" class="d-block w-100 hei opacity-50" alt="pic">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/c3.jpeg" class="d-block w-100 hei opacity-50" alt="pic">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <nav class="navbar rounded-1 position-absolute top-50 start-50 translate-middle opacity-100">
+      <h2 class="text-secondary text-center sh">Turn Anything Into<br><span class="text-success fs-1">Something Delicious</span></h2>
+      <p class="text-dark text-center fs-1">Crafting magic from the simplest ingredients.</p>
+      <div class="container-fluid d-flex  justify-content-center flex-column   ">
+        <div class="container ">
+        <br/>
+    	<div class="row">
+                            <div class="col-12  col-md-10 col-lg-8">
+                                <form class="card wi bs card-sm">
+                                    <div class="card-body row no-gutters align-items-center">
+                                        <div class="col-auto ">
+                                            <i class="fas fa-search h4 text-body"></i>
+                                        </div>
+                                        <!--end of col-->
+                                        <div class="col">
+                                            <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Generate recepies..">
+                                        </div>
+                                        <!--end of col-->
+                                        <div class="col-auto">
+                                            <button class="btn btn-lg btn-success" type="submit">Search</button>
+                                        </div>
+                                        <!--end of col-->
+                                    </div>
+                                </form>
+                            </div>
+                            <!--end of col-->
+                        </div>
+    </div>
+      </div>
+    </nav>
+    
+    </div>
+  </section>
+<section class="service  light">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div class="p-xl-4">
+          <div class="service-icon mb-4"><i class="fas fa-robot"></i></div>
+          <h4 class="service-title fs-4 fw-bold mb-3">Best Bot</h4>
+          <p class="service-content mb-0">
+          Our smart cooking bot is your ultimate kitchen companion. From quick suggestions to personalized tips, it makes cooking easy, fun, and stress-free. Think of it as your little chef-friend online!</p>
+        </div>
+      </div>
+      <div class="col-md-4 mt-5 mt-md-0">
+        <div class="p-xl-4">
+          <div class="service-icon mb-4"><i class="fas fa-carrot"></i></div>
+          <h4 class="service-title fs-4 fw-bold mb-3">Lot's Of Recipies </h4>
+          <p class="service-content mb-0">
+            Discover a wide variety of recipes from everyday meals to festive delights. Whether you’re a beginner or a pro, you’ll always find something new, tasty, and exciting to cook.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 mt-5 mt-md-0">
+        <div class="p-xl-4">
+          <div class="service-icon mb-4"><i class="fas fa-child"></i></div>
+          <h4 class="service-title fs-4 fw-bold mb-3">Childrens Specialist In Food</h4>
+          <p class="service-content mb-0">
+            Wholesome, colorful, and fun-to-eat meals for kids! We create recipes that are not only healthy but also loved by little taste buds—because happy kids mean happy families.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 mt-5">
+        <div class="p-xl-4">
+          <div class="service-icon mb-4"><i class="fas fa-drumstick-bite"></i></div>
+          <h4 class="service-title fs-4 fw-bold mb-3">Yummy Non Veg</h4>
+          <p class="service-content mb-0">
+            From juicy chicken curries to mouthwatering seafood, our non-veg recipes bring bold flavors to your plate. Each dish is packed with taste, freshness, and pure satisfaction.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 mt-5">
+        <div class="p-xl-4">
+          <div class="service-icon mb-4"><i class="fas fa-ice-cream"></i></div>
+          <h4 class="service-title fs-4 fw-bold mb-3">Interesting Sweets</h4>
+          <p class="service-content mb-0">
+            Satisfy your sweet cravings with unique desserts that are as beautiful as they are delicious. From traditional favorites to creative twists, there’s something for every sweet tooth.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 mt-5">
+        <div class="p-xl-4">
+          <div class="service-icon mb-4"><i class="fas fa-pencil-ruler"></i></div>
+          <h4 class="service-title fs-4 fw-bold mb-3">Creative Ui/Ux</h4>
+          <p class="service-content mb-0">
+          Enjoy recipes with a fresh and creative website design. Simple, stylish, and user-friendly—so you spend less time searching and more time cooking!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-5">
+	<div class="container">
+		<div class="row justify-content-center text-center mb-4">
+			<div class="col-lg-8 col-xxl-7">
+				<span class="text-muted">Steps</span>
+				<h2 class="display-5 fw-bold">How it Works</h2>
+				<p class="lead">Our website makes cooking simple, fun, and stress-free. Just follow a few easy steps—from coming up with ideas to enjoying your delicious meals. With smart guidance, tasty recipes, and creative tips, you’ll become a kitchen pro in no time!</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="text-center position-relative">
+					<div class="step-icon mx-auto bg-success border rounded-circle d-flex align-items-center justify-content-center" style="width:120px;height:120px;">
+						<i class="fas fa-lightbulb text-light fs-1"></i>
+					</div>
+					<h4 class="mt-3 fs-5">THINK</h4>
+					<p class="lead text-muted mt-4 fs-5 px-lg-3 mb-5 mb-lg-0">Get inspired! Whether it’s a quick snack or a festive feast, start by imagining what you want to create.</p>
+					<div class="arrow-icon position-absolute d-none d-lg-block" style="top:50px; right:-25px">
+            <i class="fas fa-arrow-right text-dark fs-1"></i>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="text-center position-relative">
+					<div class="step-icon mx-auto bg-success border rounded-circle d-flex align-items-center justify-content-center" style="width: 120px;height: 120px;">
+						<i class="fas fa-search text-light fs-1"></i>
+					</div>
+					<h4 class="mt-3 fs-5">SEARCH</h4>
+					<p class="lead text-muted mt-4 fs-5 px-lg-3 mb-5 mb-lg-0">Find the perfect recipe with ease. Our wide collection and smart suggestions make it quick to discover your next dish.
+</p>
+					<div class="arrow-icon d-none d-lg-block position-absolute" style="top:50px; right:-25px">
+						<i class="fas fa-arrow-right text-dark fs-1"></i>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="text-center position-relative">
+					<div class="step-icon mx-auto bg-success border rounded-circle d-flex align-items-center justify-content-center" style="width: 120px;height: 120px;">
+						<i class="fas fa-burger text-light fs-1"></i>
+					</div>
+					<h4 class="mt-3 fs-5">COOK</h4>
+					<p class="lead text-muted mt-4 fs-5 px-lg-3 mb-5 mb-lg-0">Follow simple, step-by-step instructions. From prep to plating, cooking becomes enjoyable and effortless.
+</p>
+					<div class="arrow-icon d-none d-lg-block position-absolute" style="top:50px; right:-25px">
+						<i class="fas fa-arrow-right text-dark fs-1"></i>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="text-center position-relative">
+					<div class="step-icon mx-auto bg-success border rounded-circle d-flex align-items-center justify-content-center" style="width: 120px;height: 120px;">
+						<i class="fas fa-utensils text-light fs-1"></i>
+					</div>
+					<h4 class="mt-3 fs-5">EAT</h4>
+					<p class="lead text-muted mt-4 fs-5 px-lg-3 mb-5 mb-lg-0">Relish your creation! Share it with family, friends, or just enjoy it yourself—every bite is full of love and flavor.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="ezy__blog15 mt-2 light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <h1 class="ezy__blog15-heading text-center">Popular recipes</h1><p class="text-secondary fs-4 text-center">most viewed Recipes </p>
+      </div>
+      <div id="ezy__blog15-controls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <!-- card starts -->
+              <div class="col-12 col-lg-4 mt-4 mt-lg-5">
+                <div class="card">
+                  <div class="position-relative">
+                    
+                    <img
+                      src="assets/img/food1.jpeg" height="330"
+                      class="card-img-top"
+                      alt="pic"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <a>
+                      <p class="card-text mb-2">pierogi, a traditional Polish dumpling. </p>
+                    </a>
+                    <a>
+                      <h5 class="card-title mb-2">Pierogi are typically filled with various ingredients, such as potatoes, cheese, meat, or fruit.
+They can be boiled, fried, or baked and are often served with sour cream, bacon bits, or sautéed onions.</h5>
+                    </a>
+                    <p class="card-text"></p>
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="d-flex align-items-center">
+                        <div class="me-2">
+                          <img
+                            src="assets/img/chef1.jpeg"
+                            alt=""
+                            class="img-fluid rounded-circle border"
+                            width="40"
+                          />
+                        </div>
+                        <div>
+                          <h4 class="mb-0">John Smith</h4>
+                        </div>
+                      </div>
+                      <a href="seerecipe.html" class="btn btn-outline-primary ezy__blog15-card-btn d-flex align-items-center"
+                        >See Recipie</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- card ends -->
+              <!-- card starts -->
+              <div class="col-12 col-lg-4 mt-4 mt-lg-5">
+                <div class="card">
+                  <div class="position-relative">
+                    <img
+                      src="assets/img/food2.jpeg" height="330"
+                      class="card-img-top"
+                      alt="pic"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <a>
+                      <p class="card-text mb-2">a plate of Salted Egg Chicken</p>
+                    </a>
+                    <a>
+                      <h5 class="card-title mb-2">a popular Southeast Asian dish, particularly in Singapore and Malaysia. 
+It features crispy fried chicken coated in a rich, savory, and slightly sweet sauce made from salted egg yolks.
+The distinctive salted egg sauce is often flavored with curry leaves and chilies, and can be made creamier with the addition of cream or evaporated milk.</h5>
+                    </a>
+                    <p class="card-text"></p>
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="d-flex align-items-center">
+                        <div class="me-2">
+                          <img
+                            src="assets/img/chef2.jpeg"
+                            alt=""
+                            class="img-fluid rounded-circle border"
+                            width="40"
+                          />
+                        </div>
+                        <div>
+                          <h4 class="mb-0">young hoo</h4>
+                        </div>
+                      </div>
+                      <a href="seerecipe.html" class="btn btn-outline-primary ezy__blog15-card-btn">See Recipie</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- card ends -->
+              <!-- card starts -->
+              <div class="col-12 col-lg-4 mt-4 mt-lg-5">
+                <div class="card">
+                  <div class="position-relative">
+                    <img
+                      src="assets/img/food3.jpeg" height="330"
+                      class="card-img-top"
+                      alt="pic"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <a>
+                      <p class="card-text mb-2">a plate of Hasselback potatoes served with a side of vegetables.</p>
+                    </a>
+                    <a>
+                      <h5 class="card-title mb-2">
+                        Hasselback potatoes are a type of baked potato characterized by thin, fan-like slices cut partway through the potato, creating a crispy exterior and a fluffy interior. 
+They are thought to have originated in Sweden, named after the Hasselbacken restaurant in Stockholm where they were served
+                    </h5>
+                    </a>
+                    <p class="card-text">
+                    </p>
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="d-flex align-items-center">
+                        <div class="me-2">
+                          <img
+                            src="assets/img/chef3.jpeg"
+                            alt=""
+                            class="img-fluid rounded-circle border"
+                            width="40"
+                          />
+                        </div>
+                        <div>
+                          <h4 class="mb-0">Alex Hales</h4>
+                        </div>
+                      </div>
+                      <a href="seerecipe.html" class="btn btn-outline-primary ezy__blog15-card-btn">See Recipie</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- card ends -->
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row">
+              <!-- card starts -->
+              <div class="col-12 col-lg-4 mt-4 mt-lg-5">
+                <div class="card">
+                  <div class="position-relative">
+                    <img
+                      src="assets/img/food4.jpeg"height="320"
+                      class="card-img-top"
+                      alt="pic"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <a>
+                      <p class="card-text mb-2">quis voluptate</p>
+                    </a>
+                    <a>
+                      <h5 class="card-title mb-2">enim eu velit est exercitation sunt non consectetur consectetur labore</h5>
+                    </a>
+                    <p class="card-text">fugiat do officia commodo velit quis incididunt aliqua .</p>
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="d-flex align-items-center">
+                        <div class="me-2">
+                          <img
+                            src="assets/img/chef1.jpeg"
+                            alt=""
+                            class="img-fluid rounded-circle border"
+                            width="40"
+                          />
+                        </div>
+                        <div>
+                          <h4 class="mb-0">John Smith</h4>
+                        </div>
+                      </div>
+                      <a href="seerecipe.html" class="btn btn-outline-primary ezy__blog15-card-btn d-flex align-items-center"
+                        >See Recipie</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- card ends -->
+              <!-- card starts -->
+              <div class="col-12 col-lg-4 mt-4 mt-lg-5">
+                <div class="card">
+                  <div class="position-relative">
+                    <img
+                      src="assets/img/food5.jpeg"height="320"
+                      class="card-img-top"
+                      alt="pic"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <a>
+                      <p class="card-text mb-2">ad laboris</p>
+                    </a>
+                    <a>
+                      <h5 class="card-title mb-2">aliquip sunt ullamco ullamco laborum culpa ut et ullamco Lorem</h5>
+                    </a>
+                    <p class="card-text">excepteur ex proident dolor exercitation irure amet id.</p>
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="d-flex align-items-center">
+                        <div class="me-2">
+                          <img
+                            src="assets/img/cook6.jpeg" 
+                            alt=""
+                            class="img-fluid rounded-circle border"
+                            width="40"
+                          />
+                        </div>
+                        <div>
+                          <h4 class="mb-0">Marry Smith</h4>
+                        </div>
+                      </div>
+                      <a href="seerecipe.html" class="btn btn-outline-primary ezy__blog15-card-btn">See Recipie</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- card ends -->
+              <!-- card starts -->
+              <div class="col-12 col-lg-4 mt-4 mt-lg-5">
+                <div class="card">
+                  <div class="position-relative">
+                    <div class="ezy__blog15-play-btn"><i class="fas fa-play ms-1"></i></div>
+                    <img
+                      src="assets/img/food6.jpeg"
+                     height="320" class="card-img-top"
+                      alt="pic"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <a>
+                      <p class="card-text mb-2">dolor officia</p>
+                    </a>
+                    <a>
+                      <h5 class="card-title mb-2">The Complete Digital Marketing Guide Course</h5>
+                    </a>
+                    <p class="card-text">Some quick example text to build on the card the...</p>
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="d-flex align-items-center">
+                        <div class="me-2">
+                          <img
+                            src="assets/img/chef2.jpeg"
+                            alt=""
+                            class="img-fluid rounded-circle border"
+                            width="40"
+                          />
+                        </div>
+                        <div>
+                          <h4 class="mb-0">John Smith</h4>
+                        </div>
+                      </div>
+                      <a href="seerecipe.html" class="btn btn-outline-primary ezy__blog15-card-btn">See Recipie</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- card ends -->
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#ezy__blog15-controls"
+          data-bs-slide="prev"
+        >
+          <i class="fas fa-angle-left"></i>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#ezy__blog15-controls"
+          data-bs-slide="next"
+        >
+          <i class="fas fa-angle-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="ezy__testimonial21 light">
+  <div class="container position-relative">
+    <div class="row justify-content-center mb-md-4">
+      <div class="col-8 col-lg-6 col-xl-5">
+        <h2 class="ezy__testimonial21-heading mb-4 text-center">What Our User Say</h2>
+        <p class="ezy__testimonial21-sub-heading mb-0 text-center">
+          Hear from our food-loving community — real stories, real flavors, and real joy.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div id="ezy__testimonial21-controls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner overflow-visible">
+            <div class="carousel-item active">
+              <div class="row mt-5">
+                <div class="col-md-6 mt-4">
+                  <div class="ezy__testimonial21-item px-4 py-4">
+                    <div class="ezy__testimonial21-content mt-3">
+                      <div class="d-flex justify-content-between align-items-center mb-4">
+                        <div class="d-flex align-items-center">
+                          <div class="me-2">
+                            <img
+                              src="assets/img/user1.jpeg"
+                              alt=""
+                              class="img-fluid rounded-circle border"
+                              width="47"
+                            />
+                          </div>
+                          <div>
+                            <h5 class="mb-0">nick john</h5>
+                          </div>
+                        </div>
+                        <p class="mb-0 ezy__testimonial21-rating">
+                          <span class="fas fa-star active"></span>
+                          <span class="fas fa-star active"></span>
+                          <span class="fas fa-star active"></span>
+                          <span class="fas fa-star-half-alt active"></span>
+                          <span class="fas fa-star"></span>
+                        </p>
+                      </div>
+                      <p class="mb-4 ezy__testimonial21-text">
+ This website has completely changed how I cook! The step-by-step recipes make everything so easy, and the variety is amazing. I especially love the kids’ recipes — my little one enjoys every meal. Truly a fun and inspiring cooking experience!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mt-4">
+                  <div class="ezy__testimonial21-item px-4 py-4">
+                    <div class="ezy__testimonial21-content mt-3">
+                      <div class="d-flex justify-content-between align-items-center mb-4">
+                        <div class="d-flex align-items-center">
+                          <div class="me-2">
+                            <img
+                              src="assets/img/user5.jpeg"
+                              alt=""
+                              class="img-fluid rounded-circle border"
+                              width="47"
+                            />
+                          </div>
+                          <div>
+                            <h5 class="mb-0">Raima Shen</h5>
+                          </div>
+                        </div>
+                        <p class="mb-0 ezy__testimonial21-rating">
+                          <span class="fas fa-star active"></span>
+                          <span class="fas fa-star active"></span>
+                          <span class="fas fa-star active"></span>
+                          <span class="fas fa-star-half-alt active"></span>
+                          <span class="fas fa-star"></span>
+                        </p>
+                      </div>
+                      <p class="mb-4 ezy__testimonial21-text">
+I love how this platform turns simple ingredients into delicious dishes. The cooking bot is a game-changer, offering personalized suggestions that save so much time. It’s my go-to place for meal ideas and a source of constant inspiration.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row mt-5">
+                <div class="col-md-6 mt-4">
+                  <div class="ezy__testimonial21-item px-4 py-4">
+                    <div class="ezy__testimonial21-content mt-3">
+                      <div class="d-flex justify-content-between align-items-center mb-4">
+                        <div class="d-flex align-items-center">
+                          <div class="me-2">
+                            <img
+                              src="assets/img/user3.jpeg"
+                              alt=""
+                              class="img-fluid rounded-circle border"
+                              width="47"
+                            />
+                          </div>
+                          <div>
+                            <h5 class="mb-0">John Amith</h5>
+                          </div>
+                        </div>
+                        <p class="mb-0 ezy__testimonial21-rating">
+                          <span class="fas fa-star active"></span>
+                          <span class="fas fa-star active"></span>
+                          <span class="fas fa-star active"></span>
+                          <span class="fas fa-star-half-alt active"></span>
+                          <span class="fas fa-star"></span>
+                        </p>
+                      </div>
+                      <p class="mb-4 ezy__testimonial21-text">
+The gallery is incredible! The photos not only make me hungry but also inspire me to try new recipes. I enjoy browsing here before deciding what to cook. Every dish looks so appealing!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mt-4">
+                  <div class="ezy__testimonial21-item px-4 py-4">
+                    <div class="ezy__testimonial21-content mt-3">
+                      <div class="d-flex justify-content-between align-items-center mb-4">
+                        <div class="d-flex align-items-center">
+                          <div class="me-2">
+                            <img
+                              src="assets/img/user2.jpeg"
+                              alt=""
+                              class="img-fluid rounded-circle border"
+                              width="47"
+                            />
+                          </div>
+                          <div>
+                            <h5 class="mb-0">Rose Shen</h5>
+                          </div>
+                        </div>
+                        <p class="mb-0 ezy__testimonial21-rating">
+                          <span class="fas fa-star active"></span>
+                          <span class="fas fa-star active"></span>
+                          <span class="fas fa-star active"></span>
+                          <span class="fas fa-star-half-alt active"></span>
+                          <span class="fas fa-star"></span>
+                        </p>
+                      </div>
+                      <p class="mb-4 ezy__testimonial21-text">
+I never thought cooking could be this exciting. The variety of recipes, the clear instructions, and the creative touches make this site my favorite. I’ve discovered so many new flavors and techniques!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row mt-5">
+                <div class="col-md-6 mt-4">
+                  <div class="ezy__testimonial21-item px-4 py-4">
+                    <div class="ezy__testimonial21-content mt-3">
+                      <div class="d-flex justify-content-between align-items-center mb-4">
+                        <div class="d-flex align-items-center">
+                          <div class="me-2">
+                            <img
+                              src="https://cdn.easyfrontend.com/pictures/testimonial/testimonial_square_1.jpeg"
+                              alt=""
+                              class="img-fluid rounded-circle border"
+                              width="47"
+                            />
+                          </div>
+                          <div>
+                            <h5 class="mb-0">paul</h5>
+                          </div>
+                        </div>
+                        <p class="mb-0 ezy__testimonial21-rating">
+                          <span class="fas fa-star active"></span>
+                          <span class="fas fa-star active"></span>
+                          <span class="fas fa-star active"></span>
+                          <span class="fas fa-star-half-alt active"></span>
+                          <span class="fas fa-star"></span>
+                        </p>
+                      </div>
+                      <p class="mb-4 ezy__testimonial21-text">
+As someone who loves cooking for family, this site is perfect. The recipes are easy, healthy, and delicious. Plus, the community section is so inspiring — I love sharing my creations and getting feedback.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mt-4">
+                  <div class="ezy__testimonial21-item px-4 py-4">
+                    <div class="ezy__testimonial21-content mt-3">
+                      <div class="d-flex justify-content-between align-items-center mb-4">
+                        <div class="d-flex align-items-center">
+                          <div class="me-2">
+                            <img
+                              src="https://cdn.easyfrontend.com/pictures/testimonial/testimonial_square_2.jpeg"
+                              alt=""
+                              class="img-fluid rounded-circle border"
+                              width="47"
+                            />
+                          </div>
+                          <div>
+                            <h5 class="mb-0">Raima Shen</h5>
+                          </div>
+                        </div>
+                        <p class="mb-0 ezy__testimonial21-rating">
+                          <span class="fas fa-star active"></span>
+                          <span class="fas fa-star active"></span>
+                          <span class="fas fa-star active"></span>
+                          <span class="fas fa-star-half-alt active"></span>
+                          <span class="fas fa-star"></span>
+                        </p>
+                      </div>
+                      <p class="mb-4 ezy__testimonial21-text">
+This is more than a recipe site; it’s a cooking journey. Every visit sparks new ideas, and the bot makes it feel personal. Cooking has become my favorite hobby again!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="position-relative d-flex justify-content-center align-items-center my-5">
+      <button
+        class="carousel-control-prev me-4"
+        type="button"
+        data-bs-target="#ezy__testimonial21-controls"
+        data-bs-slide="prev"
+      >
+        <i class="fas fa-angle-left"></i>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#ezy__testimonial21-controls"
+        data-bs-slide="next"
+      >
+        <i class="fas fa-angle-right"></i>
+      </button>
+    </div>
+  </div>
+</div></section>
+<footer class="py-4">
+	<div class="container">
+		<div class="row align-items-center py-4">
+			<div class="col-12 col-lg-3 text-center text-lg-start"><img alt="Free Frontend Logo" class="img-fluid mb-3" height="70" src="assets/img/logo1.png" width="100"></div>
+			<div class="col-12 col-lg-6 navbar-expand text-center">
+				<ul class="list-unstyled d-block d-lg-flex justify-content-center mb-3 mb-lg-0">
+					<li class="nav-item">
+						<a class="text-dark text-decoration-none me-lg-3" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="text-dark text-decoration-none me-lg-3" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="text-dark text-decoration-none me-lg-3" href="blog.html">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="text-dark text-decoration-none me-lg-3" href="gallery.html">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="text-dark text-decoration-none" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-12 d-flex col-lg-3 text-center text-lg-end justify-content-end ">
+				<a class="me-2 text-success nav-link" href="">
+				  <i class="fa fa-facebook fs-4" ></i></a> <a class=" nav-link text-success me-2" href="">
+				  <i class="fa fa-whatsapp fs-4" ></i>
+				</a> <a class="me-2 text-success nav-link" href="">
+				 <i class="fa fa-instagram fs-4" ></i>
+				  </a>
+			</div>
+		</div>
+		<div class="row pb-3">
+			<div class="col-12 text-center small text-muted">
+				© 2023 Recipie All rights reserved. <a class="d-block d-lg-inline text-muted mx-1" href="privacy.html">Privacy Policy</a> <a class="d-block d-lg-inline text-muted mx-1" href="terms.html">Terms of Service</a>
+			</div>
+		</div>
+	</div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

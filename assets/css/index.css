@@ -1,0 +1,389 @@
+
+.ezy__testimonial21 {
+  /* Bootstrap variables */
+  --bs-body-color: #212529;
+  --bs-body-bg: rgb(255, 255, 255);
+
+  /* Easy Frontend variables */
+  --ezy-theme-color: rgb(13, 110, 253);
+  --ezy-theme-color-rgb: 13, 110, 253;
+  --ezy-rating-rgb: 255, 215, 0;
+  --ezy-item-bg: #ffffff;
+  --ezy-item-shadow: 0px 6px 44px rgba(173, 174, 197, 0.2);
+  --ezy-arrow-shadow: -8px 25px 40px 0 rgba(0, 0, 0, 0.2);
+
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  overflow: hidden;
+  padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+  .ezy__testimonial21 {
+    padding: 100px 0;
+  }
+}
+
+/* Gray Block Style */
+.gray .ezy__testimonial21,
+.ezy__testimonial21.gray {
+  /* Bootstrap variables */
+  --bs-body-bg: rgb(246, 246, 246);
+
+  /* Easy Frontend variables */
+  --ezy-item-bg: #fff;
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__testimonial21,
+.ezy__testimonial21.dark-gray {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(30, 39, 53);
+
+  /* Easy Frontend variables */
+  --ezy-item-bg: rgb(11, 23, 39);
+  --ezy-item-shadow: 0px 6px 44px rgba(0, 0, 0, 0.2);
+}
+
+/* Dark Block Style */
+.dark .ezy__testimonial21,
+.ezy__testimonial21.dark {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(11, 23, 39);
+
+  /* Easy Frontend variables */
+  --ezy-item-bg: rgb(30, 39, 53);
+  --ezy-item-shadow: 0px 6px 44px rgba(0, 0, 0, 0.2);
+}
+
+.ezy__testimonial21-heading {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 25px;
+}
+
+@media (min-width: 768px) {
+  .ezy__testimonial21-heading {
+    font-size: 45px;
+    line-height: 45px;
+  }
+}
+
+.ezy__testimonial21-sub-heading {
+  font-size: 18px;
+  line-height: 1.6;
+  opacity: 0.8;
+}
+
+.ezy__testimonial21-item {
+  background-color: var(--ezy-item-bg);
+  box-shadow: var(--ezy-item-shadow);
+  border-radius: 15px;
+  transition: transform 0.25s ease-in-out;
+}
+
+.ezy__testimonial21-item:hover {
+  transform: translateY(-5px);
+}
+
+.ezy__testimonial21-item > img {
+  border-radius: 15px;
+  margin-top: -85px;
+}
+
+.ezy__testimonial21-content * {
+  color: var(--bs-body-color);
+}
+
+.ezy__testimonial21-social-links a {
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+.ezy__testimonial21-social-links a:hover {
+  transform: translateY(5px);
+  color: var(--bs-body-color);
+  opacity: 1;
+}
+
+.ezy__testimonial21-rating [class*="fa-"]:not(.active),
+.ezy__testimonial21-rating [class*="fa-"]:not(.active) * {
+  font-size: 22px;
+  color: rgba(var(--ezy-rating-rgb), 0.2);
+}
+
+.ezy__testimonial21-rating [class*="fa-"].active,
+.ezy__testimonial21-rating [class*="fa-"].active * {
+  font-size: 22px;
+  color: rgba(var(--ezy-rating-rgb), 1);
+}
+
+.ezy__testimonial21 .carousel-control-prev,
+.ezy__testimonial21 .carousel-control-next {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: var(--ezy-arrow-shadow);
+  color: var(--bs-body-color);
+}
+
+.ezy__testimonial21 .carousel-control-prev:hover,
+.ezy__testimonial21 .carousel-control-next:hover {
+  color: var(--bs-body-color) !important;
+}
+
+.ezy__testimonial21-text {
+  line-height: 1.8;
+  opacity: 0.8;
+}
+    ezy__blog15 {
+  /* Bootstrap variables */
+  --bs-body-bg: rgb(255, 255, 255);
+
+  /* Easy Frontend variables */
+  --ezy-theme-color: rgb(13, 110, 253);
+  --ezy-theme-color-rgb: 13, 110, 253;
+  --ezy-play-btn-bg-rgb: 255, 255, 255;
+  --ezy-card-bg: rgb(246, 246, 246);
+
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  overflow: hidden;
+  padding: 60px 0;
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .ezy__blog15 {
+    padding: 100px 0;
+  }
+}
+
+/* Gray Block Style */
+.gray .ezy__blog15,
+.ezy__blog15.gray {
+  /* Bootstrap variables */
+  --bs-body-bg: rgb(246, 246, 246);
+
+  /* Easy Frontend variables */
+  --ezy-card-bg: #ffffff;
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__blog15,
+.ezy__blog15.dark-gray {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(30, 39, 53);
+
+  /* Easy Frontend variables */
+  --ezy-card-bg: rgb(11, 23, 39);
+}
+
+/* Dark Block Style */
+.dark .ezy__blog15,
+.ezy__blog15.dark {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(11, 23, 39);
+
+  /* Easy Frontend variables */
+  --ezy-card-bg: rgb(30, 39, 53);
+}
+
+.ezy__blog15-heading {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 1;
+}
+
+@media (min-width: 768px) {
+  .ezy__blog15-heading {
+    font-size: 45px;
+  }
+}
+
+.ezy__blog15-sub-heading {
+  font-size: 18px;
+  line-height: 25px;
+  opacity: 0.8;
+}
+
+/* card */
+.ezy__blog15 .card {
+  background-color: var(--ezy-card-bg);
+  border: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.ezy__blog15 .card a:hover {
+  color: var(--ezy-theme-color);
+  cursor: pointer;
+}
+
+.ezy__blog15 .card .btn {
+  text-decoration: none;
+  color: var(--bs-body-color);
+  border-color: var(--ezy-theme-color);
+  cursor: pointer;
+}
+
+.ezy__blog15 .card .btn:hover {
+  color: #fff;
+  border-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+  background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}
+
+.ezy__blog15 .card-text {
+  color: var(--bs-body-color);
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+.ezy__blog15 .card-title {
+  color: var(--bs-body-color);
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.ezy__blog15 .card-title:hover {
+  color: var(--ezy-theme-color);
+}
+
+.ezy__blog15 .card h4 {
+  color: var(--bs-body-color);
+  font-size: 16px;
+}
+
+/* play btn */
+.ezy__blog15-play-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  background-color: rgba(var(--ezy-play-btn-bg-rgb), 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.ezy__blog15-play-btn:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(var(--ezy-play-btn-bg-rgb), 0.2);
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+/* prev and next btn */
+.ezy__blog15 .carousel-control-prev,
+.ezy__blog15 .carousel-control-next {
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  background-color: rgba(var(--ezy-theme-color-rgb), 0.7);
+  color: #fff;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1;
+  transition: 0.4s;
+}
+
+.ezy__blog15 .carousel-control-prev:hover,
+.ezy__blog15 .carousel-control-next:hover {
+  background-color: rgba(var(--ezy-theme-color-rgb), 1);
+  color: #fff;
+}
+
+@media (min-width: 576px) {
+  .ezy__blog15 .carousel-control-prev {
+    left: -10px;
+  }
+
+  .ezy__blog15 .carousel-control-next {
+    right: -10px;
+  }
+}
+
+.ezy__blog15 a {
+  text-decoration: none;
+}
+    .service {
+  background: hsl(160, 84.1%, 39.4%);
+  overflow: hidden;
+  padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+  .service {
+    padding: 100px 0;
+  }
+}
+
+.service-icon {
+  width: 74px;
+  height: 74px;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-title {
+  color: #ffffff
+}
+.service-content {
+  color: #ffffff
+}
+      .hei{
+        height: 820px;
+      }
+      @media screen and (max-width: 768px) {
+        
+    }
+    @media screen and (min-width: 768px) {
+        .wi{
+      width:600px;
+    }
+    }
+    .sh{
+      margin: auto;
+      text-shadow: 0px 0px 9px #00ff00;
+    }
+    .bs{
+      box-shadow: 5px 5px 20px 1px #000000;
+    }
+    .form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
